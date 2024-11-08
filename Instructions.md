@@ -18,5 +18,8 @@ RomanceMovies: 'https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY_HE
 
 Documentaries: 'https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY_HERE}&with_genres=99',
 
+video:'https://api.themoviedb.org/3/movie/{movie_id}/videos?api_key=YOUR_API_KEY'
+
 
 //// API_KEY= GET THE API KEY FROM TMDB ////
+->set your api key generated from tmdb to the constants.js file
